@@ -1,0 +1,19 @@
+{
+  "name": "dz5-1---classes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Artem18rus/DZ5-1---Classes.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Artem18rus/DZ5-1---Classes/issues"
+  },
+  "homepage": "https://github.com/Artem18rus/DZ5-1---Classes#readme"
+}
