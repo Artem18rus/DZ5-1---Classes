@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest",
+    "coverage": "jest --coverage",
+    "lint": "eslint .",
+    "serve": "live-server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,17 @@
   "bugs": {
     "url": "https://github.com/Artem18rus/DZ5-1---Classes/issues"
   },
-  "homepage": "https://github.com/Artem18rus/DZ5-1---Classes#readme"
+  "homepage": "https://github.com/Artem18rus/DZ5-1---Classes#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.19.0",
+    "@babel/preset-env": "^7.19.0",
+    "babel-jest": "^29.0.2",
+    "babel-loader": "^8.2.5",
+    "core-js": "^3.25.0",
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "jest": "^29.0.2",
+    "live-server": "^1.2.2"
+  }
 }
